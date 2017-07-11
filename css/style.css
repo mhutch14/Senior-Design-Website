@@ -6,6 +6,44 @@ body{
 }
 
 /* Global */
+.container_hover {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #B61E2E;
+}
+
+.container_hover:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
 .container{
   width: 80%;
   margin: auto;
@@ -95,6 +133,29 @@ header a:hover{
 
 #showcase p{
   font-size: 20px;
+}
+
+#showcase_classes{
+  text-align: center;
+  color: #000000;
+}
+
+#showcase_classes h1 {
+  margin-top: 40px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase_classes p#pe {
+  text-align: center;
+}
+
+#showcase_classes p#ps {
+  text-align: center;
+}
+
+#showcase_classes p#evt {
+  text-align: center;
 }
 
 /* newsletter */
