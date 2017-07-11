@@ -6,7 +6,7 @@ body{
 }
 
 /* Global */
-.container_hover {
+/*.container_hover {
   position: relative;
   width: 50%;
 }
@@ -43,6 +43,7 @@ body{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+*/
 
 .container{
   width: 80%;
