@@ -86,7 +86,7 @@ header a{
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 header li{
@@ -136,27 +136,40 @@ header a:hover{
   font-size: 20px;
 }
 
+#pagewrap {
+  padding: 5px;
+  width: 960px;
+  margin: 20px auto;
+}
+
 #showcase_classes{
-  text-align: center;
   color: #000000;
 }
 
 #showcase_classes h1 {
+  text-align: center;
   margin-top: 40px;
   font-size: 55px;
   margin-bottom: 10px;
 }
 
-#showcase_classes p#pe {
-  text-align: center;
+#content {
+  width: 290px;
+  float: left;
+  padding: 5px 15px;
 }
 
-#showcase_classes p#ps {
-  text-align: center;
+#middle {
+  width: 294px; /* Account for margins + border values */
+  float: left;
+  padding: 5px 15px;
+  margin: 0px 5px 5px 5px;
 }
 
-#showcase_classes p#evt {
-  text-align: center;
+#sidebar {
+  width: 270px;
+  padding: 5px 15px;
+  float: left;
 }
 
 /* newsletter */
@@ -227,6 +240,7 @@ ul#services li{
 
 footer{
   padding: 20px;
+  clear: both;
   margin-top: 20px;
   color: #ffffff;
   background-color: #B61E2E;
