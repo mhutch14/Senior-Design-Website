@@ -56,6 +56,15 @@ ul{
   padding: 0;
 }
 
+.button_randomize{
+  height: 38px;
+  background: #B61E2E;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
 .button_1{
   height: 38px;
   background: #e8491d;
@@ -86,13 +95,13 @@ header a{
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 header li{
   float: left;
   display: inline;
-  padding: 0 20px 0 20px;
+  padding: 0px 20px 0 20px;
 }
 
 header #branding{
@@ -154,12 +163,14 @@ header a:hover{
 }
 
 #content {
+  text-align: center;
   width: 290px;
   float: left;
   padding: 5px 15px;
 }
 
 #middle {
+  text-align: center;
   width: 294px; /* Account for margins + border values */
   float: left;
   padding: 5px 15px;
@@ -167,6 +178,7 @@ header a:hover{
 }
 
 #sidebar {
+  text-align: center;
   width: 270px;
   padding: 5px 15px;
   float: left;

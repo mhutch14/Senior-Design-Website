@@ -6,6 +6,9 @@
   <meta name="author" content="Mark Hutchinson">
   <title>Power Electronics | Welcome</title>
   <link rel="stylesheet" href="./css/style.css">
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 </head>
 <body>
   <header>
@@ -24,35 +27,36 @@
           <li><a href="psim.html">PSIM Tutorial</a></li>
           <li><a href="usefullinks.html">Useful Links</a></li>
           <li><a href="dsp.html">DSP Help</a></li>
-          <li class="current"><a href="manuals.html">Useful Manuals</a></li>
-          <li><a href="problems.html">Practice Problems</a></li>
+          <li><a href="manuals.html">Useful Manuals</a></li>
+          <li class="current"><a href="problems.html">Practice Problems</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- Program to have manual display when words clicked -->
+<!-- Funtion for Random Numbers -->
   <script type="text/javascript">
-    function toggleMe(a){
-      var e = document.getElementById(a);
-      var i = document.getElementById(a + '_image');
-      if(!e)return true;
-      if(e.style.display=="none"){
-        e.style.display="block"
-        i.src = './img/up arrow.png';
-      } else {
-        e.style.display="none"
-        i.src = './img/down arrow.png';
-      }
-      return false;
+    function rand10(int lower) {
+      return Math.floor((Math.random() * 10) + 1);
+    }
+
+    function rand1000(int higher) {
+      return Math.floor((Math.random() * 1000) + 1);
     }
   </script>
 
-  <p><a style="cursor:pointer;" onclick="return toggleMe('para1')"><img id="para1_image" src="./img/down arrow.png" width="20px" height="20px" style="border:0;margin-right:5px;vertical-align:middle;" />PCB Parasitic Inductance Analysis Using Q3D v2</a></p>
-  <div id="para1" style="display:none;">
-  <a title="View PCB Parasitic Inductance Analysis Using Q3D v2 on Scribd" href="https://www.scribd.com/document/353683044/PCB-Parasitic-Inductance-Analysis-Using-Q3D-v2#from_embed"  style="text-decoration: underline;" ></a><iframe class="scribd_iframe_embed" src="https://www.scribd.com/embeds/353683044/content?start_page=1&view_mode=scroll&access_key=key-LixNgkyUVgVQHTdsIqCn&show_recommendations=true" data-auto-height="false" data-aspect-ratio="0.7729220222793488" scrolling="no" id="doc_93283" width="100%" height="600" frameborder="0"></iframe>
-  </div>
+  <section id="newsletter">
+      <div class="container">
+        <form>
+          <button type="text" class="button_randomize"><a style="cursor:pointer;" onclick="return rand10('para1')">Randomize Problems</a></p></button>
+        </form>
+      </div>
+    </section>
 
+  <section id="problem1">
+    <h2>Problem One</h2>
+    <p>For  the  circuit  shown  in  Fig.  1, A<sub>VO</sub> =  1000  V/V, R<sub>1</sub> = 50 \(\Omega\), R<sub>IN</sub> = 10  k\(\Omega\), R<sub>OUT</sub> = 10k\(\Omega\) and R<sub>LD</sub> = 10k\(\Omega\).</p>
+  </section>
 <!--
     <section id="showcase">
       <div class="container">
