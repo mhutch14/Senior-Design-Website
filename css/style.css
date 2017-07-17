@@ -191,6 +191,10 @@ header a:hover{
     background-color: #35424a;
 }
 
+.manual_container {
+  text-align: center;
+}
+
 /* Showcase */
 #showcase{
   min-height: 400px;
