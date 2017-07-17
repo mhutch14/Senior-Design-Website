@@ -145,7 +145,6 @@ header a:hover{
 
 .dropbtn {
     background-color: #35424a;
-    font-weight: bold;
     text-transform: uppercase;
     color: #ffffff;
     padding: 16px;
@@ -293,6 +292,18 @@ header a:hover{
 
 /* Sidebar */
 aside#sidebar{
+  float: left;
+  width: 30%;
+  margin-top: 10px;
+}
+
+aside#sidebar-home {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+aside#sidebar-about {
   float: right;
   width: 30%;
   margin-top: 10px;
@@ -305,6 +316,16 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 
 /* Main-col */
 article#main-col{
+  float: right;
+  width: 65%;
+}
+
+article#main-home {
+  float: left;
+  width: 65%;
+}
+
+article#main-about {
   float: left;
   width: 65%;
 }
