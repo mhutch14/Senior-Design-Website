@@ -82,6 +82,10 @@ ul{
   margin-bottom: 10px;
 }
 
+.powerpoint{
+  text-align: center;
+}
+
 /* Header */
 header{
   background: #35424a;
@@ -231,7 +235,7 @@ header a:hover{
 
 #content {
   text-align: center;
-  width: 290px;
+  width: 294px;
   float: left;
   padding: 5px 15px;
 }

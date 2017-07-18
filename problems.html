@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width = device-width">
-  <meta name="author" content="Mark Hutchinson">
-  <title>Power Electronics | Welcome</title>
-  <link rel="stylesheet" href="./css/style.css">
-  <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta charset="utf-8">
+<meta name="viewport" content="width = device-width">
+<meta name="author" content="Mark Hutchinson">
+<title>Power Electronics | Welcome</title>
+<link rel="stylesheet" href="./css/style.css">
+<script type="text/javascript" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 </head>
 <body>
@@ -24,6 +24,7 @@
             <div class="dropdown-content">
               <a href="applets.html">Applets</a>
               <a href="problems.html">Practice Problems</a>
+              <a href="classes.html">Classes Offered</a>
             </div>
           </div>
           <div class="dropdown">
@@ -43,61 +44,68 @@
     </div>
   </header>
 
-  <section id="newsletter">
-    <div class="container">
-      <h1>Mark J. Scott, PhD</h1>
-      <form id="random_button">
-        <button type="text" class="button_randomize"><a style="cursor:pointer;" onclick="return rand10('para1')">Randomize Problems</a></p></button>
-      </form>
-    </div>
-  </section>
-
-  <section id="main">
-    <div class="container">
-      <article id="main-col">
-        <h1 class="page-title">Problem One</h1>
-        <p class="dark">For  the  circuit  shown  in  Fig.  1, A<sub>VO</sub> =  1000  V/V, R<sub>1</sub> = 50 \(\Omega\), R<sub>IN</sub> = 10  k\(\Omega\), R<sub>OUT</sub> = 10k\(\Omega\) and R<sub>LD</sub> = 10k\(\Omega\).</p>
-          <h1>Experience</h1>
-          <p class="dark">2015–Present, Assistant Professor, Miami University<br />
-            2010–2015, Graduate Administrative/Teaching/Research Assistant, The Ohio State University<br />
-            2008–2009, Electrical Design Engineer, Vanner Incorporated<br />
-            2006–2008, Electrical Engineer, Atronix Engineering Incorporated<br />
-            2001–2006, Student Assistant, The Ohio State University; Department of Athletics: Electronics Department<br />
-            2000–2001, Electrical Engineer Co-Op, R.A. Jones</p>
-            <h1>Prospective Students</h1>
-            <p></p>
-            <p class="dark">The Power and Energy Research Laboratory at Miami University is accepting undergraduate and M.S. students that are interested in doing hands-on research. Ideal candidates will have hardware experience developing printed circuit boards (PCB) and troubleshooting power electronics along with software experience writing code for digital signal processors (DSP).<br /> Familiarity with PSIM, OrCAD, Code Composer Studio, Matlab, and Simulink along with programing C2000 microcontrollers is a plus. Interested students can send a brief e-mail to scottmj3@MiamiOH.edu. Please aptly describe how your past experience and future career goals integrate into the main research thrust of our team. CVs can be included as text below the signature line in your e-mail, or in a GoogleDoc. No attachments or boilerplate e-mails please.</p>
-          </article>
-
-          <aside id="sidebar">
-            <div class="dark">
-              <h3>Table of Contents</h3>
-              <ul>
-                <li>Problem One</li><br />
-                <li>Bullet Point 2</li><br />
-                <li>Bullet Point 3</li><br />
-                <li>Bullet Point 4</li>
-              </ul>
-            </div>
-          </aside>
-
-        </div>
-      </section>
-
   <!-- Funtion for Random Numbers -->
-  <script type="text/javascript">
-    function rand10(int lower) {
-      return Math.floor((Math.random() * 10) + 1);
-    }
+  <script>
+    function myFunction() {
+      document.getElementById("demo1").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo2").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo3").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo4").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo5").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo6").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo7").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo8").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo9").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo10").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo11").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo12").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo13").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo14").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo15").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo16").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo17").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo18").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo19").innerHTML = Math.floor(Math.random() * 6) + 1 
+      document.getElementById("demo20").innerHTML = Math.floor(Math.random() * 6) + 1 
 
-    function rand1000(int higher) {
-      return Math.floor((Math.random() * 1000) + 1);
     }
   </script>
 
-  <section id="problem1">
-    <p></p>
-  </section>
+  <section id="newsletter">
+    <div class="container">
+      <button onclick="myFunction()">Randomize Problems</button>
+    </form>
+  </div>
+</section>
+
+
+<section id="main">
+  <div class="container">
+    <article id="main-col">
+      <h1 class="page-title">Problem One</h1>
+      <p class="dark">For  the  circuit  shown  in  Fig.  1, A<sub>VO</sub> =  <ins id="demo1">1000</ins> V/V, R<sub>1</sub> = <ins id="demo2">50</ins> \(\Omega\), R<sub>IN</sub> = <ins id="demo3">10</ins>  k\(\Omega\), R<sub>OUT</sub> = <ins id="demo4">10</ins> k\(\Omega\) and R<sub>LD</sub> = <ins id="demo5">10</ins> k\(\Omega\).</p>
+      <h1>Problem Two</h1>
+      <p class="dark">For  the  circuit  shown  in  Fig.  1, A<sub>VO</sub> =  <ins id="demo6">1000</ins>  V/V, R<sub>1</sub> = <ins id="demo7">50</ins> \(\Omega\), R<sub>IN</sub> = <ins id="demo8">10</ins>  k\(\Omega\), R<sub>OUT</sub> = <ins id="demo9">10</ins> k\(\Omega\) and R<sub>LD</sub> = <ins id="demo10">10</ins> k\(\Omega\).</p>
+      <h1>Problem Three</h1>
+      <p class="dark">For  the  circuit  shown  in  Fig.  1, A<sub>VO</sub> =  <ins id="demo11">1000</ins>  V/V, R<sub>1</sub> = <ins id="demo12">50</ins> \(\Omega\), R<sub>IN</sub> = <ins id="demo13">10</ins>  k\(\Omega\), R<sub>OUT</sub> = <ins id="demo14">10</ins> k\(\Omega\) and R<sub>LD</sub> = <ins id="demo15">10</ins> k\(\Omega\).</p>
+      <h1>Problem Four</h1>
+      <p class="dark">For  the  circuit  shown  in  Fig.  1, A<sub>VO</sub> =  <ins id="demo16">1000</ins>  V/V, R<sub>1</sub> = <ins id="demo17">50</ins> \(\Omega\), R<sub>IN</sub> = <ins id="demo18">10</ins>  k\(\Omega\), R<sub>OUT</sub> = <ins id="demo19">10</ins> k\(\Omega\) and R<sub>LD</sub> = <ins id="demo20">10</ins> k\(\Omega\).</p>
+    </article>
+
+    <aside id="sidebar">
+      <div class="dark">
+        <h3>Table of Contents</h3>
+        <ul>
+          <li>Problem One</li><br />
+          <li>Problem Two</li><br />
+          <li>Problem Three</li><br />
+          <li>Problem Four</li>
+        </ul>
+      </div>
+    </aside>
+
+  </div>
+</section>
 
 <!--
     <section id="showcase">
