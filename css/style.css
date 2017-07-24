@@ -6,45 +6,6 @@ body{
 }
 
 /* Global */
-/*.container_hover {
-  position: relative;
-  width: 50%;
-}
-
-.image {
-  display: block;
-  width: 50%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 50%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #B61E2E;
-}
-
-.container_hover:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-*/
-
 .container{
   width: 80%;
   margin: auto;
@@ -54,15 +15,6 @@ body{
 ul{
   margin: 0;
   padding: 0;
-}
-
-.button_randomize{
-  height: 38px;
-  background: #B61E2E;
-  border: 0;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #ffffff;
 }
 
 .button_1{
@@ -80,10 +32,6 @@ ul{
   color: #ffffff;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.powerpoint{
-  text-align: center;
 }
 
 /* Header */
@@ -194,8 +142,13 @@ header a:hover{
     background-color: #35424a;
 }
 
-.manual_container {
-  text-align: center;
+.button_randomize{
+  height: 38px;
+  background: #B61E2E;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
 }
 
 /* Showcase */
@@ -253,6 +206,20 @@ header a:hover{
   width: 270px;
   padding: 5px 15px;
   float: left;
+}
+
+#manual_pagewrap {
+  width: 880px;
+  margin: 0 auto;
+}
+
+#psim_pagewrap {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+#circuits {
+  text-align: center;
 }
 
 /* newsletter */
