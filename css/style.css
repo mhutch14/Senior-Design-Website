@@ -1,3 +1,4 @@
+/* Global definition for word font and background color of website */
 body{
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding: 0;
@@ -6,6 +7,8 @@ body{
 }
 
 /* Global */
+
+/* Contorls global format of the website */
 .container{
   width: 80%;
   margin: auto;
@@ -17,6 +20,7 @@ ul{
   padding: 0;
 }
 
+/* Subscribe Button */
 .button_1{
   height: 38px;
   background: #e8491d;
@@ -26,6 +30,7 @@ ul{
   color: #ffffff;
 }
 
+/* Element to put writing in dark box */
 .dark{
   padding: 15px;
   background: #35424a;
@@ -35,6 +40,8 @@ ul{
 }
 
 /* Header */
+
+/* Main website header control */
 header{
   background: #35424a;
   color: #ffffff;
@@ -56,36 +63,44 @@ header li{
   padding: 0px 20px 0 20px;
 }
 
+/* Control of main title in header */
 header #branding{
   float: left;
 }
 
+/* Header width */
 header #branding h1{
   margin: 0;
 }
 
+/* Code to control the different tabs of the website */
 header nav{
   float: right;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
+/* Color and font of the main title of website */
 header .highlight, header .current a{
   color: #B61E2E;
   font-weight: bold;
 }
 
+/* Control of color and font when mouse hovers over */
 header a:hover{
   color: #cccccc;
   font-weight: bold;
 }
 
 /* Dropdown Button */
+
+/* Control of the design of the navigation links */
 .container_navbar {
     overflow: hidden;
     background-color: #35424a;
     font-family: Arial;
 }
 
+/* Order of the navigation links on the website */
 .container_navbar a {
     float: left;
     font-size: 16px;
@@ -95,6 +110,7 @@ header a:hover{
     text-decoration: none;
 }
 
+/* Design Control of the drop down buttons */
 .dropbtn {
     background-color: #35424a;
     text-transform: uppercase;
@@ -142,6 +158,7 @@ header a:hover{
     background-color: #35424a;
 }
 
+/* Random Problems button for the practice problems page */
 .button_randomize{
   height: 38px;
   background: #B61E2E;
@@ -151,24 +168,7 @@ header a:hover{
   color: #ffffff;
 }
 
-/* Showcase */
-#showcase{
-  min-height: 400px;
-  background: url('../img/power.jpg') no-repeat 0 -400px;
-  text-align: center;
-  color: #000000;
-}
-
-#showcase h1{
-  margin-top: 100px;
-  font-size: 55px;
-  margin-bottom: 10px;
-}
-
-#showcase p{
-  font-size: 20px;
-}
-
+/* Sections for formating the classes offered page */
 #pagewrap {
   padding: 5px;
   width: 960px;
@@ -208,16 +208,19 @@ header a:hover{
   float: left;
 }
 
+/* Element to control the manual styling */
 #manual_pagewrap {
   width: 880px;
   margin: 0 auto;
 }
 
+/* Element to control the PSIM tutorial styling */
 #psim_pagewrap {
   width: 1440px;
   margin: 0 auto;
 }
 
+/* Control the alignment of the circuit drawings on the practice problems page*/
 #circuits {
   text-align: center;
 }
@@ -229,79 +232,52 @@ header a:hover{
   background: #35424a;
 }
 
-#newsletter h1{
-  float: left;
-}
-
-#newsletter form{
-  float: right;
-  margin-top: 15px;
-}
-
-#newsletter input[type="email"]{
-  padding: 4px;
-  height: 25px;
-  width: 250px;
-}
-
-/* Boxes */
-#boxes{
-  margin-top: 20px;
-}
-
-#boxes .box{
-  float: left;
-  text-align: center;
-  width: 30%;
-  padding: 10px;
-}
-
-#boxes .box img{
-  width: 120px;
-  height: 120px;
-}
-
 /* Sidebar */
+
+/* Control of sidebar styling */
 aside#sidebar{
   float: left;
   width: 30%;
   margin-top: 10px;
 }
 
+/* Control of the sidebar on Home page */
 aside#sidebar-home {
   float: right;
   width: 30%;
   margin-top: 10px;
 }
 
+/* Control of sidebar on about page */
 aside#sidebar-about {
   float: right;
   width: 30%;
   margin-top: 10px;
 }
 
-aside#sidebar .quote input, aside#sidebar .quote textarea{
-  width: 90%;
-  padding: 5px;
-}
-
 /* Main-col */
+
+/* Control of format of columns */
 article#main-col{
   float: right;
   width: 65%;
 }
 
+/* Control of format of columns on Home page */
 article#main-home {
   float: left;
   width: 65%;
 }
 
+/* Control of format of columns on About page */
 article#main-about {
   float: left;
   width: 65%;
 }
 
 /* Services */
+
+/* Layout of Formula One Research Page */
 ul#services li{
   list-style: none;
   padding: 20px;
@@ -310,6 +286,7 @@ ul#services li{
   background: #e6e6e6;
 }
 
+/* Control of footer on the website */
 footer{
   padding: 20px;
   clear: both;
@@ -319,7 +296,7 @@ footer{
   text-align: center;
 }
 
-/* Media Queries */
+/* Media Queries / Control of the look of site on a mobile device */
 @media (max-width: 768px) {
   header #branding,
   header nav,
